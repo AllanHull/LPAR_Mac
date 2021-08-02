@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */; };
+		C50A2EFE247F22D600444866 /* IA_MIL_POW.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */; };
+		C50A2F002480266700444866 /* IA_ORG_Iowa_Univ.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */; };
+		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
+		C569556F2416C2150004798D /* MyScene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569556E2416C2150004798D /* MyScene.usdz */; };
+		C56955772416C9040004798D /* PlateViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955762416C9040004798D /* PlateViewContentView.swift */; };
+		C5695579242EB8400004798D /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5695578242EB8400004798D /* ARQuickLook.swift */; };
+		C56955B7243E8FCA0004798D /* fender.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56955B6243E8FCA0004798D /* fender.usdz */; };
+		C56955B9244027700004798D /* North Dakota.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56955B8244027700004798D /* North Dakota.usdz */; };
+		C569560024469D9B0004798D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955FF24469D9B0004798D /* MapView.swift */; };
+		C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */; };
+		C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695606244BE0440004798D /* IA_STD_Plate.usdz */; };
+		C569560B244BE06C0004798D /* NE_ORG_UNO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */; };
+		C569560D244BE07E0004798D /* IA_ORG_Iowa_St.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */; };
+		C569560F244BE0940004798D /* NE_SPEC_Cancer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */; };
+		C5695611244BE09E0004798D /* NE_ORG_Union_Pacific.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */; };
+		C5695615244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */; };
+		C5695617244BE0EC0004798D /* NE_SPEC_Standard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */; };
 		C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231623AAA18100BE365D /* AppDelegate.swift */; };
 		C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231823AAA18100BE365D /* SceneDelegate.swift */; };
 		C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231A23AAA18100BE365D /* ContentView.swift */; };
 		C5C8231D23AAA18200BE365D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C8231C23AAA18200BE365D /* Assets.xcassets */; };
 		C5C8232023AAA18200BE365D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C8231F23AAA18200BE365D /* Preview Assets.xcassets */; };
 		C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C8232123AAA18200BE365D /* LaunchScreen.storyboard */; };
+		C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232B23AAA3EF00BE365D /* StateContentView.swift */; };
+		C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232E23AAA72E00BE365D /* InfoContentView.swift */; };
+		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
+		C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233523BA79E800BE365D /* FlagContentView.swift */; };
+		C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */; };
+		C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BC240DF2A500C2BDCA /* Experience.rcproject */; };
+		C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUI.swift; sourceTree = "<group>"; };
+		C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_POW.usdz; sourceTree = "<group>"; };
+		C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_Iowa_Univ.usdz; sourceTree = "<group>"; };
+		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
+		C569556E2416C2150004798D /* MyScene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MyScene.usdz; sourceTree = "<group>"; };
+		C56955762416C9040004798D /* PlateViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewContentView.swift; sourceTree = "<group>"; };
+		C5695578242EB8400004798D /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
+		C56955B6243E8FCA0004798D /* fender.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender.usdz; sourceTree = "<group>"; };
+		C56955B8244027700004798D /* North Dakota.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "North Dakota.usdz"; sourceTree = "<group>"; };
+		C56955FF24469D9B0004798D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Husker.usdz; sourceTree = "<group>"; };
+		C5695606244BE0440004798D /* IA_STD_Plate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_STD_Plate.usdz; sourceTree = "<group>"; };
+		C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_UNO.usdz; sourceTree = "<group>"; };
+		C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_Iowa_St.usdz; sourceTree = "<group>"; };
+		C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Cancer.usdz; sourceTree = "<group>"; };
+		C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_Union_Pacific.usdz; sourceTree = "<group>"; };
+		C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_SPEC_Breast_Cancer.usdz; sourceTree = "<group>"; };
+		C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Standard.usdz; sourceTree = "<group>"; };
 		C5C8231323AAA18100BE365D /* LPAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C8231623AAA18100BE365D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5C8231823AAA18100BE365D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +67,13 @@
 		C5C8231F23AAA18200BE365D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5C8232223AAA18200BE365D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C8232423AAA18200BE365D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C8232B23AAA3EF00BE365D /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
+		C5C8232E23AAA72E00BE365D /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
+		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
+		C5C8233523BA79E800BE365D /* FlagContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagContentView.swift; sourceTree = "<group>"; };
+		C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = LPAR/ARviews/ARViewContainer.swift; sourceTree = SOURCE_ROOT; };
+		C5F948BC240DF2A500C2BDCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +87,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C569556A24132D130004798D /* Plates */ = {
+			isa = PBXGroup;
+			children = (
+				C569556B24132D790004798D /* PlateContentView.swift */,
+				C56955762416C9040004798D /* PlateViewContentView.swift */,
+			);
+			path = Plates;
+			sourceTree = "<group>";
+		};
+		C569556D2416C1DA0004798D /* ARviews */ = {
+			isa = PBXGroup;
+			children = (
+				C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */,
+			);
+			path = ARviews;
+			sourceTree = "<group>";
+		};
+		C56955FE24469D350004798D /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				C56955FF24469D9B0004798D /* MapView.swift */,
+				C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		C5695601244BDFA20004798D /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */,
+				C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */,
+				C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */,
+				C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */,
+				C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */,
+				C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */,
+				C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */,
+				C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */,
+				C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */,
+				C5695606244BE0440004798D /* IA_STD_Plate.usdz */,
+			);
+			path = USDZ;
+			sourceTree = "<group>";
+		};
 		C5C8230A23AAA18100BE365D = {
 			isa = PBXGroup;
 			children = (
+				C5695601244BDFA20004798D /* USDZ */,
 				C5C8231523AAA18100BE365D /* LPAR */,
 				C5C8231423AAA18100BE365D /* Products */,
 			);
@@ -56,7 +150,19 @@
 		C5C8231523AAA18100BE365D /* LPAR */ = {
 			isa = PBXGroup;
 			children = (
+				C56955FE24469D350004798D /* Supporting Views */,
+				C569556D2416C1DA0004798D /* ARviews */,
+				C569556A24132D130004798D /* Plates */,
+				C5C8233423BA79C000BE365D /* Flags */,
+				C5C8232D23AAA71500BE365D /* Info */,
+				C5C8232A23AAA37300BE365D /* States */,
 				C5C8231623AAA18100BE365D /* AppDelegate.swift */,
+				C569556E2416C2150004798D /* MyScene.usdz */,
+				C56955B8244027700004798D /* North Dakota.usdz */,
+				C56955B6243E8FCA0004798D /* fender.usdz */,
+				C5695578242EB8400004798D /* ARQuickLook.swift */,
+				C5F948BC240DF2A500C2BDCA /* Experience.rcproject */,
+				C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */,
 				C5C8231823AAA18100BE365D /* SceneDelegate.swift */,
 				C5C8231A23AAA18100BE365D /* ContentView.swift */,
 				C5C8231C23AAA18200BE365D /* Assets.xcassets */,
@@ -73,6 +179,31 @@
 				C5C8231F23AAA18200BE365D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5C8232A23AAA37300BE365D /* States */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8232B23AAA3EF00BE365D /* StateContentView.swift */,
+				C5C8233223B1360D00BE365D /* StateDetailContentView.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		C5C8232D23AAA71500BE365D /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8232E23AAA72E00BE365D /* InfoContentView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		C5C8233423BA79C000BE365D /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8233523BA79E800BE365D /* FlagContentView.swift */,
+			);
+			path = Flags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +264,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */,
+				C56955B9244027700004798D /* North Dakota.usdz in Resources */,
+				C5695617244BE0EC0004798D /* NE_SPEC_Standard.usdz in Resources */,
+				C56955B7243E8FCA0004798D /* fender.usdz in Resources */,
+				C569560F244BE0940004798D /* NE_SPEC_Cancer.usdz in Resources */,
+				C569556F2416C2150004798D /* MyScene.usdz in Resources */,
+				C5695611244BE09E0004798D /* NE_ORG_Union_Pacific.usdz in Resources */,
 				C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */,
+				C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */,
 				C5C8232023AAA18200BE365D /* Preview Assets.xcassets in Resources */,
+				C50A2F002480266700444866 /* IA_ORG_Iowa_Univ.usdz in Resources */,
+				C569560D244BE07E0004798D /* IA_ORG_Iowa_St.usdz in Resources */,
+				C50A2EFE247F22D600444866 /* IA_MIL_POW.usdz in Resources */,
+				C5695615244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz in Resources */,
 				C5C8231D23AAA18200BE365D /* Assets.xcassets in Resources */,
+				C569560B244BE06C0004798D /* NE_ORG_UNO.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +290,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56955772416C9040004798D /* PlateViewContentView.swift in Sources */,
+				C569556C24132D790004798D /* PlateContentView.swift in Sources */,
+				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
+				C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */,
+				C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */,
+				C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */,
+				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
+				C569560024469D9B0004798D /* MapView.swift in Sources */,
 				C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */,
+				C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */,
+				C5695579242EB8400004798D /* ARQuickLook.swift in Sources */,
+				C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */,
 				C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */,
+				C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */,
 				C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,10 +449,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mobi..LPAR;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.LPAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,10 +470,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mobi..LPAR;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.LPAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

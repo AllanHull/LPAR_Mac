@@ -9,30 +9,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection = 0
- 
-    var body: some View {
-        TabView(selection: $selection){
-            Text("First View")
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("first")
-                        Text("First")
-                    }
+  
+        var body: some View {
+            TabView {
+                NavigationView {
+                    InfoContentView()
                 }
                 .tag(0)
-            Text("Second View")
-                .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
-                        Text("Second")
+                      //  Image("Info")
+                        Text("Info")
                     }
                 }
-                .tag(1)
+
+                StateContentView()
+                    .tag(1)
+                    .tabItem {
+                        VStack {
+                          //  Image("Plate")
+                            Text("States")
+                        }
+                    }
+                                   
+            }
         }
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {

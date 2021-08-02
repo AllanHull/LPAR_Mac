@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "NE_Spec_Cancer.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "NE_Spec_Cancer@2.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "NE_Spec_Cancer@3.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
