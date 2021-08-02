@@ -44,8 +44,6 @@ struct Plate: Codable, Identifiable {
 
 typealias Plates = [Plate]
 
-
-
 struct PlateContentView: View {
 
     @ObservedObject var plateData: PlateDownloader = PlateDownloader()
