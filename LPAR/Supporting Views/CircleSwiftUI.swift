@@ -13,11 +13,6 @@ struct CircleSwiftUI: View {
     
     var body: some View {
        Image(imagePIC)
- //       .clipShape(Rectangle())
- //       .shadow(radius: 10)
- //       .overlay(Rectangle()
- //       .stroke(Color.red, lineWidth: 5))
-        
         .resizable()
         .aspectRatio(contentMode: .fill)
         .frame(width: 125.0, height: 75.0)

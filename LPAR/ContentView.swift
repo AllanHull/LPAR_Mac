@@ -18,7 +18,8 @@ struct ContentView: View {
                 .tag(0)
                 .tabItem {
                     VStack {
-                      //  Image("Info")
+                        Spacer()
+                        Image("icon-info")
                         Text("Info")
                     }
                 }
@@ -27,7 +28,7 @@ struct ContentView: View {
                     .tag(1)
                     .tabItem {
                         VStack {
-                          //  Image("Plate")
+                            Image("icon-usa-map")
                             Text("States")
                         }
                     }

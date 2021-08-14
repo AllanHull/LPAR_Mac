@@ -11,11 +11,8 @@
 		C50A2EFE247F22D600444866 /* IA_MIL_POW.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */; };
 		C50A2F002480266700444866 /* IA_ORG_Iowa_Univ.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */; };
 		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
-		C569556F2416C2150004798D /* MyScene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569556E2416C2150004798D /* MyScene.usdz */; };
 		C56955772416C9040004798D /* PlateViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955762416C9040004798D /* PlateViewContentView.swift */; };
 		C5695579242EB8400004798D /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5695578242EB8400004798D /* ARQuickLook.swift */; };
-		C56955B7243E8FCA0004798D /* fender.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56955B6243E8FCA0004798D /* fender.usdz */; };
-		C56955B9244027700004798D /* North Dakota.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56955B8244027700004798D /* North Dakota.usdz */; };
 		C569560024469D9B0004798D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955FF24469D9B0004798D /* MapView.swift */; };
 		C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */; };
 		C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695606244BE0440004798D /* IA_STD_Plate.usdz */; };
@@ -35,6 +32,7 @@
 		C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232E23AAA72E00BE365D /* InfoContentView.swift */; };
 		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
 		C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233523BA79E800BE365D /* FlagContentView.swift */; };
+		C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A33A26B8685B0009465C /* NOTES.swift */; };
 		C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */; };
 		C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BC240DF2A500C2BDCA /* Experience.rcproject */; };
 		C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */; };
@@ -45,11 +43,8 @@
 		C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_POW.usdz; sourceTree = "<group>"; };
 		C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_Iowa_Univ.usdz; sourceTree = "<group>"; };
 		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
-		C569556E2416C2150004798D /* MyScene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MyScene.usdz; sourceTree = "<group>"; };
 		C56955762416C9040004798D /* PlateViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewContentView.swift; sourceTree = "<group>"; };
 		C5695578242EB8400004798D /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
-		C56955B6243E8FCA0004798D /* fender.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender.usdz; sourceTree = "<group>"; };
-		C56955B8244027700004798D /* North Dakota.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "North Dakota.usdz"; sourceTree = "<group>"; };
 		C56955FF24469D9B0004798D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Husker.usdz; sourceTree = "<group>"; };
 		C5695606244BE0440004798D /* IA_STD_Plate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_STD_Plate.usdz; sourceTree = "<group>"; };
@@ -71,6 +66,7 @@
 		C5C8232E23AAA72E00BE365D /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
 		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
 		C5C8233523BA79E800BE365D /* FlagContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagContentView.swift; sourceTree = "<group>"; };
+		C5D7A33A26B8685B0009465C /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
 		C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = LPAR/ARviews/ARViewContainer.swift; sourceTree = SOURCE_ROOT; };
 		C5F948BC240DF2A500C2BDCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewInfo.swift; sourceTree = "<group>"; };
@@ -133,7 +129,6 @@
 		C5C8230A23AAA18100BE365D = {
 			isa = PBXGroup;
 			children = (
-				C5695601244BDFA20004798D /* USDZ */,
 				C5C8231523AAA18100BE365D /* LPAR */,
 				C5C8231423AAA18100BE365D /* Products */,
 			);
@@ -156,11 +151,9 @@
 				C5C8233423BA79C000BE365D /* Flags */,
 				C5C8232D23AAA71500BE365D /* Info */,
 				C5C8232A23AAA37300BE365D /* States */,
-				C5C8231623AAA18100BE365D /* AppDelegate.swift */,
-				C569556E2416C2150004798D /* MyScene.usdz */,
-				C56955B8244027700004798D /* North Dakota.usdz */,
-				C56955B6243E8FCA0004798D /* fender.usdz */,
+				C5695601244BDFA20004798D /* USDZ */,
 				C5695578242EB8400004798D /* ARQuickLook.swift */,
+				C5C8231623AAA18100BE365D /* AppDelegate.swift */,
 				C5F948BC240DF2A500C2BDCA /* Experience.rcproject */,
 				C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */,
 				C5C8231823AAA18100BE365D /* SceneDelegate.swift */,
@@ -169,6 +162,7 @@
 				C5C8232123AAA18200BE365D /* LaunchScreen.storyboard */,
 				C5C8232423AAA18200BE365D /* Info.plist */,
 				C5C8231E23AAA18200BE365D /* Preview Content */,
+				C5D7A33A26B8685B0009465C /* NOTES.swift */,
 			);
 			path = LPAR;
 			sourceTree = "<group>";
@@ -265,11 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */,
-				C56955B9244027700004798D /* North Dakota.usdz in Resources */,
 				C5695617244BE0EC0004798D /* NE_SPEC_Standard.usdz in Resources */,
-				C56955B7243E8FCA0004798D /* fender.usdz in Resources */,
 				C569560F244BE0940004798D /* NE_SPEC_Cancer.usdz in Resources */,
-				C569556F2416C2150004798D /* MyScene.usdz in Resources */,
 				C5695611244BE09E0004798D /* NE_ORG_Union_Pacific.usdz in Resources */,
 				C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */,
 				C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */,
@@ -305,6 +296,7 @@
 				C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */,
 				C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */,
 				C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */,
+				C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
