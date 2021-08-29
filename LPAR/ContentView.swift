@@ -12,9 +12,9 @@ struct ContentView: View {
   
         var body: some View {
             TabView {
-                NavigationView {
-                    InfoContentView()
-                }
+ //               NavigationView {
+                    IntroContentView()
+ //               }
                 .tag(0)
                 .tabItem {
                     VStack {
@@ -32,6 +32,16 @@ struct ContentView: View {
                             Text("States")
                         }
                     }
+ 
+                IntroContentView()
+                    .tag(2)
+                    .tabItem {
+                        VStack {
+                            Image("icon-usa-map")
+                            Text("States")
+                        }
+                    }
+                
                                    
             }
         }

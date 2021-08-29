@@ -20,8 +20,3 @@ struct StateDetailContentView: View {
     }
 }
 
-// struct StateDetailContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        StateDetailContentView()
-//    }
-// }

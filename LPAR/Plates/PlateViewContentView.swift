@@ -104,7 +104,7 @@ struct PlateViewContentView: View {
                     // The actual quick-look view, which will scale to fill the
                     // available space.
                     ARQuickLookView(name: self.plate.imageLink, allowScaling: self.allowsScaling)
-  //                 ARQuickLookView(name: self.imageType, allowScaling: self.allowsScaling)
+
                     
                 }
            //     Spacer()

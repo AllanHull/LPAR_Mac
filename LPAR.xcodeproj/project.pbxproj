@@ -33,6 +33,8 @@
 		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
 		C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233523BA79E800BE365D /* FlagContentView.swift */; };
 		C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A33A26B8685B0009465C /* NOTES.swift */; };
+		C5E327BF26D321DE001F2D16 /* IntroContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E327BE26D321DE001F2D16 /* IntroContentView.swift */; };
+		C5E327C226DBE912001F2D16 /* InventoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E327C126DBE912001F2D16 /* InventoryContentView.swift */; };
 		C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */; };
 		C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BC240DF2A500C2BDCA /* Experience.rcproject */; };
 		C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */; };
@@ -67,6 +69,8 @@
 		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
 		C5C8233523BA79E800BE365D /* FlagContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagContentView.swift; sourceTree = "<group>"; };
 		C5D7A33A26B8685B0009465C /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
+		C5E327BE26D321DE001F2D16 /* IntroContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroContentView.swift; sourceTree = "<group>"; };
+		C5E327C126DBE912001F2D16 /* InventoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryContentView.swift; sourceTree = "<group>"; };
 		C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = LPAR/ARviews/ARViewContainer.swift; sourceTree = SOURCE_ROOT; };
 		C5F948BC240DF2A500C2BDCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewInfo.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		C5C8231523AAA18100BE365D /* LPAR */ = {
 			isa = PBXGroup;
 			children = (
+				C5E327C026DBE829001F2D16 /* Inventory */,
 				C56955FE24469D350004798D /* Supporting Views */,
 				C569556D2416C1DA0004798D /* ARviews */,
 				C569556A24132D130004798D /* Plates */,
@@ -187,6 +192,7 @@
 		C5C8232D23AAA71500BE365D /* Info */ = {
 			isa = PBXGroup;
 			children = (
+				C5E327BE26D321DE001F2D16 /* IntroContentView.swift */,
 				C5C8232E23AAA72E00BE365D /* InfoContentView.swift */,
 			);
 			path = Info;
@@ -198,6 +204,14 @@
 				C5C8233523BA79E800BE365D /* FlagContentView.swift */,
 			);
 			path = Flags;
+			sourceTree = "<group>";
+		};
+		C5E327C026DBE829001F2D16 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				C5E327C126DBE912001F2D16 /* InventoryContentView.swift */,
+			);
+			path = Inventory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,11 +298,13 @@
 				C56955772416C9040004798D /* PlateViewContentView.swift in Sources */,
 				C569556C24132D790004798D /* PlateContentView.swift in Sources */,
 				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
+				C5E327C226DBE912001F2D16 /* InventoryContentView.swift in Sources */,
 				C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */,
 				C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */,
 				C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */,
 				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
 				C569560024469D9B0004798D /* MapView.swift in Sources */,
+				C5E327BF26D321DE001F2D16 /* IntroContentView.swift in Sources */,
 				C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */,
 				C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */,
 				C5695579242EB8400004798D /* ARQuickLook.swift in Sources */,

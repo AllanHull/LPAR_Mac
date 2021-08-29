@@ -46,29 +46,18 @@ typealias Plates = [Plate]
 
 struct PlateContentView: View {
 
+    var usstate: usState
+    
     @ObservedObject var plateData: PlateDownloader = PlateDownloader()
     
-    var usstate: usState
-        
-    @State private var users = ["Paul", "Taylor", "Adele"]
-      
     var body: some View {
-        
-  //      NavigationView {
-  //          List {
-  //              ForEach(users, id: \.self) { user in
-  //                  Text(user)
-  //              }
-  //              .onDelete(perform: delete)
-  //          }
-  //      }
-        
+ 
         
         List(self.plateData.plates.sorted { $0.state < $1.state } ) { plate in
+
+         
                 NavigationLink(destination: PlateViewContentView (plate: plate)) {
-                      
- //               if plate.state == self.usstate.state {
-                    
+                                          
                 // display state plate image
                 Image(plate.imageLink)
                     .resizable()
@@ -78,9 +67,6 @@ struct PlateContentView: View {
                     .overlay(Rectangle()
                     .stroke(Color.red, lineWidth: 3))
                     
-                    
-                    
-               //     delete(at: plate)
                                         
                Text(plate.state)
                 Text(plate.name)
@@ -94,33 +80,35 @@ struct PlateContentView: View {
                                 
             }
             .navigationBarTitle(Text(verbatim: "Plates"), displayMode: .inline)
-            .navigationViewStyle(StackNavigationViewStyle())
         }
 
-    func delete(at offsets: IndexSet) {
-        users.remove(atOffsets: offsets)
-    }
-    
-    
 }
+
 
 
 class PlateDownloader: ObservableObject {
     @Published var plates: Plates = [Plate]()
     
-    var tPlates = [Plate]()
 
     init() {
         print("PlateDownLoader")
+
         guard let url = URL(string: platesEndpoint) else { return }
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
                 guard let data = data else { return }
-                let plates = try JSONDecoder().decode(Plates.self, from: data)
+                var plates = try JSONDecoder().decode(Plates.self, from: data)
                 DispatchQueue.main.async {
                     self.plates = plates
-                }
+                    
 
+                    
+                    for pl in self.plates {
+                        print(pl.state)
+//              
+                    }
+                    
+                }
 
                 
             } catch {
