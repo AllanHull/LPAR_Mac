@@ -12,6 +12,7 @@
 
 // 2023JUL30
 // Commit v2.4 to githug.com
+// Modify .usdz files IA_MIL_pow, IA_SPC_basic, NE_ORG_unl (refernece Pages HOWTO_usdz)
 
 // 2023JUL20
 // AR modules

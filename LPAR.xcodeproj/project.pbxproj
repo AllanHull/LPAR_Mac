@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C5003EFB2A182B0500A02EE5 /* readPlatesInfoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5003EFA2A182B0500A02EE5 /* readPlatesInfoJSON.swift */; };
+		C506F9182A775C8000500A7E /* NE_ORG_unl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */; };
 		C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */; };
 		C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5629DAA2A245DE900A17D6D /* EventContentView.swift */; };
 		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
@@ -26,13 +27,11 @@
 		C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232E23AAA72E00BE365D /* InfoContentView.swift */; };
 		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
 		C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */; };
-		C5CC80E82A6A3F7A003C7E8D /* IA_STC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */; };
-		C5CC80EA2A6A3F84003C7E8D /* IA_MIL_pow1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */; };
+		C5CC80E82A6A3F7A003C7E8D /* IA_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */; };
 		C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */; };
 		C5CC80EF2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */; };
 		C5CC80F12A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */; };
 		C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */; };
-		C5CC80F52A6A40AA003C7E8D /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */; };
 		C5CC80F72A6A40B4003C7E8D /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F62A6A40B4003C7E8D /* teapot.usdz */; };
 		C5CC80F92A6A40C4003C7E8D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */; };
 		C5CC80FB2A6A40DB003C7E8D /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */; };
@@ -46,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		C5003EFA2A182B0500A02EE5 /* readPlatesInfoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readPlatesInfoJSON.swift; sourceTree = "<group>"; };
+		C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_unl.usdz; sourceTree = "<group>"; };
 		C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUI.swift; sourceTree = "<group>"; };
 		C5629DAA2A245DE900A17D6D /* EventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContentView.swift; sourceTree = "<group>"; };
 		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
@@ -66,13 +66,11 @@
 		C5C8232E23AAA72E00BE365D /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
 		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
 		C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPlateContentView.swift; sourceTree = "<group>"; };
-		C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_STC_basic.usdz; sourceTree = "<group>"; };
-		C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow1.usdz; sourceTree = "<group>"; };
+		C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_SPC_basic.usdz; sourceTree = "<group>"; };
 		C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow.usdz; sourceTree = "<group>"; };
 		C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_L.usdz; sourceTree = "<group>"; };
 		C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_M.usdz; sourceTree = "<group>"; };
 		C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_S.usdz; sourceTree = "<group>"; };
-		C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
 		C5CC80F62A6A40B4003C7E8D /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
 		C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 		C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 		C5CC80E52A6A3EDC003C7E8D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */,
 				C5CC80F62A6A40B4003C7E8D /* teapot.usdz */,
 				C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */,
 				C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */,
@@ -226,8 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */,
-				C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */,
-				C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */,
+				C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */,
 			);
 			path = IA;
 			sourceTree = "<group>";
@@ -235,6 +231,7 @@
 		C5CC80ED2A6A3FB7003C7E8D /* NE */ = {
 			isa = PBXGroup;
 			children = (
+				C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */,
 				C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */,
 				C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */,
 				C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */,
@@ -309,18 +306,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CC80EA2A6A3F84003C7E8D /* IA_MIL_pow1.usdz in Resources */,
+				C506F9182A775C8000500A7E /* NE_ORG_unl.usdz in Resources */,
 				C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */,
 				C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */,
 				C5CC80F12A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz in Resources */,
-				C5CC80F52A6A40AA003C7E8D /* fender_stratocaster.usdz in Resources */,
 				C5CC80F72A6A40B4003C7E8D /* teapot.usdz in Resources */,
 				C5C8232023AAA18200BE365D /* Preview Assets.xcassets in Resources */,
 				C5CC80EF2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz in Resources */,
 				C5CC80F92A6A40C4003C7E8D /* toy_biplane.usdz in Resources */,
 				C5CC80FB2A6A40DB003C7E8D /* toy_robot_vintage.usdz in Resources */,
 				C5C8231D23AAA18200BE365D /* Assets.xcassets in Resources */,
-				C5CC80E82A6A3F7A003C7E8D /* IA_STC_basic.usdz in Resources */,
+				C5CC80E82A6A3F7A003C7E8D /* IA_SPC_basic.usdz in Resources */,
 				C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
