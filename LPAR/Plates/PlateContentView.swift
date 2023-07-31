@@ -9,7 +9,9 @@
 import Foundation
 import SwiftUI
 
-let platesEndpoint = "https://lpar.mobi/api/v1/plates"
+// let platesEndpoint = "https://lpar.mobi/api/v1/plates"
+
+let platesEndpoint = "https://crom.mobi/plates_info.json"
 
 struct Plate: Codable, Identifiable {
     public var id: Int
@@ -45,19 +47,22 @@ struct Plate: Codable, Identifiable {
 typealias Plates = [Plate]
 
 struct PlateContentView: View {
+    @ObservedObject var plateData: PlateDownloader = PlateDownloader()
 
     var usstate: usState
-    
-    @ObservedObject var plateData: PlateDownloader = PlateDownloader()
-    
+        
     var body: some View {
  
-        
         List(self.plateData.plates.sorted { $0.state < $1.state } ) { plate in
-
-         
+            
+                // place marker
+            
+                if plate.state == self.usstate.state {
+                
                 NavigationLink(destination: PlateViewContentView (plate: plate)) {
-                                          
+                
+        //        if plate.state == self.usstate.state {
+                    
                 // display state plate image
                 Image(plate.imageLink)
                     .resizable()
@@ -67,10 +72,10 @@ struct PlateContentView: View {
                     .overlay(Rectangle()
                     .stroke(Color.red, lineWidth: 3))
                     
-                                        
                Text(plate.state)
-                Text(plate.name)
-   //             }
+               Text(plate.name)
+
+            }
               //  else {
               //      Text("Not Available Yet")
               //      }
@@ -97,16 +102,35 @@ class PlateDownloader: ObservableObject {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
                 guard let data = data else { return }
-                var plates = try JSONDecoder().decode(Plates.self, from: data)
+                let plates = try JSONDecoder().decode(Plates.self, from: data)
                 DispatchQueue.main.async {
                     self.plates = plates
                     
 
+                    var i:Int = 0
+                    
+                    print("plates count before \(self.plates.count)")
+                    
+                    let j:Int = self.plates.count
+                    
+                    print("plates count Int J \(j)")
                     
                     for pl in self.plates {
                         print(pl.state)
-//              
+                         i += 1
+                        print(i)
+         //               if pl.state == "Iowa" {
+         //                   print("Match")
+         //                   self.plates.remove(at: i)
+         //               }
+                         if i == 2 {
+                              self.plates.remove(at: i)
+                          }
+                //        i += 1
+                        
                     }
+                    
+                    print("plates count after \(self.plates.count)")
                     
                 }
 

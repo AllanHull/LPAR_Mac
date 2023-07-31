@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "IA_SPC_basic.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

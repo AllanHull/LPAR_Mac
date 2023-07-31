@@ -68,10 +68,10 @@ struct ARQuickLookView: UIViewControllerRepresentable {
     }
 }
   
-struct ARQuickLookView_Previews: PreviewProvider {
-    static var previews: some View {
-        ARQuickLookView(name: "MyScene")
-    }
-}
+// struct ARQuickLookView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ARQuickLookView(name: "MyScene")
+//    }
+// }
  
 

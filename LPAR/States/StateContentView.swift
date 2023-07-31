@@ -32,7 +32,7 @@ class usStateDownloader: ObservableObject {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
                 guard let data = data else { return }
-                let usstates = try JSONDecoder().decode(      usStates.self, from: data)
+                let usstates = try JSONDecoder().decode( usStates.self, from: data)
                 DispatchQueue.main.async {
                     self.usstates = usstates
                     print(self.usstates)
@@ -51,7 +51,7 @@ struct StateContentView: View {
     var body: some View {
         NavigationView {
             List(self.usstateData.usstates) { usstate in
-                NavigationLink(destination:     //FlagContentView(usstate: usstate)) {
+                NavigationLink(destination:
                     PlateContentView(usstate: usstate)) {
 
                     Image(usstate.image)
@@ -64,10 +64,12 @@ struct StateContentView: View {
   
                     Text(usstate.state)
                         .font(.system(size: 22))
-                        
+                    
                 }
            }
         .navigationBarTitle(Text("States"))
+        Spacer()
+   
         }
     }
 }

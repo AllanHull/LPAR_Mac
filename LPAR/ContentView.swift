@@ -12,9 +12,8 @@ struct ContentView: View {
   
         var body: some View {
             TabView {
- //               NavigationView {
-                    IntroContentView()
- //               }
+
+              IntroContentView()
                 .tag(0)
                 .tabItem {
                     VStack {
@@ -32,23 +31,26 @@ struct ContentView: View {
                             Text("States")
                         }
                     }
- 
-                IntroContentView()
+                
+  //             ARQLView()
+  //                readPlatesInfoJSON()
+  //              EventContentView()
+                arPlateContentView()
                     .tag(2)
                     .tabItem {
                         VStack {
                             Image("icon-usa-map")
-                            Text("States")
+                            Text("arPlateContentView")
                         }
                     }
                 
-                                   
+
             }
         }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+// struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+// }

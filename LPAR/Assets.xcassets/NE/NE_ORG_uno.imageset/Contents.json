@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "NE_ORG_uno.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

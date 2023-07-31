@@ -3,25 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5003EFB2A182B0500A02EE5 /* readPlatesInfoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5003EFA2A182B0500A02EE5 /* readPlatesInfoJSON.swift */; };
 		C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */; };
-		C50A2EFE247F22D600444866 /* IA_MIL_POW.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */; };
-		C50A2F002480266700444866 /* IA_ORG_Iowa_Univ.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */; };
+		C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5629DAA2A245DE900A17D6D /* EventContentView.swift */; };
 		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
 		C56955772416C9040004798D /* PlateViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955762416C9040004798D /* PlateViewContentView.swift */; };
 		C5695579242EB8400004798D /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5695578242EB8400004798D /* ARQuickLook.swift */; };
 		C569560024469D9B0004798D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955FF24469D9B0004798D /* MapView.swift */; };
-		C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */; };
-		C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695606244BE0440004798D /* IA_STD_Plate.usdz */; };
-		C569560B244BE06C0004798D /* NE_ORG_UNO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */; };
-		C569560D244BE07E0004798D /* IA_ORG_Iowa_St.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */; };
-		C569560F244BE0940004798D /* NE_SPEC_Cancer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */; };
-		C5695611244BE09E0004798D /* NE_ORG_Union_Pacific.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */; };
-		C5695615244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */; };
-		C5695617244BE0EC0004798D /* NE_SPEC_Standard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */; };
+		C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD502A1D980F00FA31BE /* ARQLView.swift */; };
+		C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */; };
 		C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231623AAA18100BE365D /* AppDelegate.swift */; };
 		C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231823AAA18100BE365D /* SceneDelegate.swift */; };
 		C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231A23AAA18100BE365D /* ContentView.swift */; };
@@ -31,31 +25,35 @@
 		C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232B23AAA3EF00BE365D /* StateContentView.swift */; };
 		C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232E23AAA72E00BE365D /* InfoContentView.swift */; };
 		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
-		C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233523BA79E800BE365D /* FlagContentView.swift */; };
+		C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */; };
+		C5CC80E82A6A3F7A003C7E8D /* IA_STC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */; };
+		C5CC80EA2A6A3F84003C7E8D /* IA_MIL_pow1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */; };
+		C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */; };
+		C5CC80EF2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */; };
+		C5CC80F12A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */; };
+		C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */; };
+		C5CC80F52A6A40AA003C7E8D /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */; };
+		C5CC80F72A6A40B4003C7E8D /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F62A6A40B4003C7E8D /* teapot.usdz */; };
+		C5CC80F92A6A40C4003C7E8D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */; };
+		C5CC80FB2A6A40DB003C7E8D /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */; };
+		C5CC80FD2A6A4776003C7E8D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80FC2A6A4776003C7E8D /* Model.swift */; };
 		C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A33A26B8685B0009465C /* NOTES.swift */; };
 		C5E327BF26D321DE001F2D16 /* IntroContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E327BE26D321DE001F2D16 /* IntroContentView.swift */; };
 		C5E327C226DBE912001F2D16 /* InventoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E327C126DBE912001F2D16 /* InventoryContentView.swift */; };
 		C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */; };
 		C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BC240DF2A500C2BDCA /* Experience.rcproject */; };
-		C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5003EFA2A182B0500A02EE5 /* readPlatesInfoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readPlatesInfoJSON.swift; sourceTree = "<group>"; };
 		C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUI.swift; sourceTree = "<group>"; };
-		C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_POW.usdz; sourceTree = "<group>"; };
-		C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_Iowa_Univ.usdz; sourceTree = "<group>"; };
+		C5629DAA2A245DE900A17D6D /* EventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContentView.swift; sourceTree = "<group>"; };
 		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
 		C56955762416C9040004798D /* PlateViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewContentView.swift; sourceTree = "<group>"; };
 		C5695578242EB8400004798D /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
 		C56955FF24469D9B0004798D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Husker.usdz; sourceTree = "<group>"; };
-		C5695606244BE0440004798D /* IA_STD_Plate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_STD_Plate.usdz; sourceTree = "<group>"; };
-		C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_UNO.usdz; sourceTree = "<group>"; };
-		C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_Iowa_St.usdz; sourceTree = "<group>"; };
-		C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Cancer.usdz; sourceTree = "<group>"; };
-		C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_Union_Pacific.usdz; sourceTree = "<group>"; };
-		C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_SPEC_Breast_Cancer.usdz; sourceTree = "<group>"; };
-		C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPEC_Standard.usdz; sourceTree = "<group>"; };
+		C599DD502A1D980F00FA31BE /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
+		C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
 		C5C8231323AAA18100BE365D /* LPAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C8231623AAA18100BE365D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5C8231823AAA18100BE365D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,13 +65,23 @@
 		C5C8232B23AAA3EF00BE365D /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
 		C5C8232E23AAA72E00BE365D /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
 		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
-		C5C8233523BA79E800BE365D /* FlagContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagContentView.swift; sourceTree = "<group>"; };
+		C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPlateContentView.swift; sourceTree = "<group>"; };
+		C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_STC_basic.usdz; sourceTree = "<group>"; };
+		C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow1.usdz; sourceTree = "<group>"; };
+		C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow.usdz; sourceTree = "<group>"; };
+		C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_L.usdz; sourceTree = "<group>"; };
+		C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_M.usdz; sourceTree = "<group>"; };
+		C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_S.usdz; sourceTree = "<group>"; };
+		C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		C5CC80F62A6A40B4003C7E8D /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		C5CC80FC2A6A4776003C7E8D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5D7A33A26B8685B0009465C /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
 		C5E327BE26D321DE001F2D16 /* IntroContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroContentView.swift; sourceTree = "<group>"; };
 		C5E327C126DBE912001F2D16 /* InventoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryContentView.swift; sourceTree = "<group>"; };
 		C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = LPAR/ARviews/ARViewContainer.swift; sourceTree = SOURCE_ROOT; };
 		C5F948BC240DF2A500C2BDCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,8 @@
 			children = (
 				C569556B24132D790004798D /* PlateContentView.swift */,
 				C56955762416C9040004798D /* PlateViewContentView.swift */,
+				C5003EFA2A182B0500A02EE5 /* readPlatesInfoJSON.swift */,
+				C5629DAA2A245DE900A17D6D /* EventContentView.swift */,
 			);
 			path = Plates;
 			sourceTree = "<group>";
@@ -100,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */,
+				C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */,
+				C5CC80FC2A6A4776003C7E8D /* Model.swift */,
 			);
 			path = ARviews;
 			sourceTree = "<group>";
@@ -113,21 +125,13 @@
 			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
-		C5695601244BDFA20004798D /* USDZ */ = {
+		C599DD4F2A1D972900FA31BE /* ARmodules */ = {
 			isa = PBXGroup;
 			children = (
-				C5695604244BE0190004798D /* NE_SPEC_Husker.usdz */,
-				C50A2EFF2480266700444866 /* IA_ORG_Iowa_Univ.usdz */,
-				C50A2EFD247F22D600444866 /* IA_MIL_POW.usdz */,
-				C569560A244BE06C0004798D /* NE_ORG_UNO.usdz */,
-				C5695616244BE0EC0004798D /* NE_SPEC_Standard.usdz */,
-				C5695610244BE09E0004798D /* NE_ORG_Union_Pacific.usdz */,
-				C5695614244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz */,
-				C569560E244BE0940004798D /* NE_SPEC_Cancer.usdz */,
-				C569560C244BE07E0004798D /* IA_ORG_Iowa_St.usdz */,
-				C5695606244BE0440004798D /* IA_STD_Plate.usdz */,
+				C599DD502A1D980F00FA31BE /* ARQLView.swift */,
+				C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */,
 			);
-			path = USDZ;
+			path = ARmodules;
 			sourceTree = "<group>";
 		};
 		C5C8230A23AAA18100BE365D = {
@@ -149,25 +153,25 @@
 		C5C8231523AAA18100BE365D /* LPAR */ = {
 			isa = PBXGroup;
 			children = (
-				C5E327C026DBE829001F2D16 /* Inventory */,
-				C56955FE24469D350004798D /* Supporting Views */,
+				C5D7A33A26B8685B0009465C /* NOTES.swift */,
+				C599DD4F2A1D972900FA31BE /* ARmodules */,
 				C569556D2416C1DA0004798D /* ARviews */,
+				C5E327C026DBE829001F2D16 /* Inventory */,
+				C5CC80E52A6A3EDC003C7E8D /* Models */,
+				C56955FE24469D350004798D /* Supporting Views */,
 				C569556A24132D130004798D /* Plates */,
 				C5C8233423BA79C000BE365D /* Flags */,
 				C5C8232D23AAA71500BE365D /* Info */,
 				C5C8232A23AAA37300BE365D /* States */,
-				C5695601244BDFA20004798D /* USDZ */,
 				C5695578242EB8400004798D /* ARQuickLook.swift */,
 				C5C8231623AAA18100BE365D /* AppDelegate.swift */,
 				C5F948BC240DF2A500C2BDCA /* Experience.rcproject */,
-				C5F948BE240ED7C100C2BDCA /* ARViewInfo.swift */,
 				C5C8231823AAA18100BE365D /* SceneDelegate.swift */,
 				C5C8231A23AAA18100BE365D /* ContentView.swift */,
 				C5C8231C23AAA18200BE365D /* Assets.xcassets */,
 				C5C8232123AAA18200BE365D /* LaunchScreen.storyboard */,
 				C5C8232423AAA18200BE365D /* Info.plist */,
 				C5C8231E23AAA18200BE365D /* Preview Content */,
-				C5D7A33A26B8685B0009465C /* NOTES.swift */,
 			);
 			path = LPAR;
 			sourceTree = "<group>";
@@ -201,9 +205,41 @@
 		C5C8233423BA79C000BE365D /* Flags */ = {
 			isa = PBXGroup;
 			children = (
-				C5C8233523BA79E800BE365D /* FlagContentView.swift */,
 			);
 			path = Flags;
+			sourceTree = "<group>";
+		};
+		C5CC80E52A6A3EDC003C7E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC80F42A6A40AA003C7E8D /* fender_stratocaster.usdz */,
+				C5CC80F62A6A40B4003C7E8D /* teapot.usdz */,
+				C5CC80F82A6A40C4003C7E8D /* toy_biplane.usdz */,
+				C5CC80FA2A6A40DB003C7E8D /* toy_robot_vintage.usdz */,
+				C5CC80E62A6A3F63003C7E8D /* IA */,
+				C5CC80ED2A6A3FB7003C7E8D /* NE */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5CC80E62A6A3F63003C7E8D /* IA */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */,
+				C5CC80E92A6A3F84003C7E8D /* IA_MIL_pow1.usdz */,
+				C5CC80E72A6A3F7A003C7E8D /* IA_STC_basic.usdz */,
+			);
+			path = IA;
+			sourceTree = "<group>";
+		};
+		C5CC80ED2A6A3FB7003C7E8D /* NE */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC80EE2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz */,
+				C5CC80F02A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz */,
+				C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */,
+			);
+			path = NE;
 			sourceTree = "<group>";
 		};
 		C5E327C026DBE829001F2D16 /* Inventory */ = {
@@ -240,8 +276,9 @@
 		C5C8230B23AAA18100BE365D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Allan Hull";
 				TargetAttributes = {
 					C5C8231223AAA18100BE365D = {
@@ -272,19 +309,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5695607244BE0440004798D /* IA_STD_Plate.usdz in Resources */,
-				C5695617244BE0EC0004798D /* NE_SPEC_Standard.usdz in Resources */,
-				C569560F244BE0940004798D /* NE_SPEC_Cancer.usdz in Resources */,
-				C5695611244BE09E0004798D /* NE_ORG_Union_Pacific.usdz in Resources */,
+				C5CC80EA2A6A3F84003C7E8D /* IA_MIL_pow1.usdz in Resources */,
+				C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */,
 				C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */,
-				C5695605244BE0190004798D /* NE_SPEC_Husker.usdz in Resources */,
+				C5CC80F12A6A4001003C7E8D /* NE_SPC_Cancer_M.usdz in Resources */,
+				C5CC80F52A6A40AA003C7E8D /* fender_stratocaster.usdz in Resources */,
+				C5CC80F72A6A40B4003C7E8D /* teapot.usdz in Resources */,
 				C5C8232023AAA18200BE365D /* Preview Assets.xcassets in Resources */,
-				C50A2F002480266700444866 /* IA_ORG_Iowa_Univ.usdz in Resources */,
-				C569560D244BE07E0004798D /* IA_ORG_Iowa_St.usdz in Resources */,
-				C50A2EFE247F22D600444866 /* IA_MIL_POW.usdz in Resources */,
-				C5695615244BE0E10004798D /* IA_SPEC_Breast_Cancer.usdz in Resources */,
+				C5CC80EF2A6A3FEA003C7E8D /* NE_SPC_Cancer_L.usdz in Resources */,
+				C5CC80F92A6A40C4003C7E8D /* toy_biplane.usdz in Resources */,
+				C5CC80FB2A6A40DB003C7E8D /* toy_robot_vintage.usdz in Resources */,
 				C5C8231D23AAA18200BE365D /* Assets.xcassets in Resources */,
-				C569560B244BE06C0004798D /* NE_ORG_UNO.usdz in Resources */,
+				C5CC80E82A6A3F7A003C7E8D /* IA_STC_basic.usdz in Resources */,
+				C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,18 +332,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */,
 				C56955772416C9040004798D /* PlateViewContentView.swift in Sources */,
 				C569556C24132D790004798D /* PlateContentView.swift in Sources */,
 				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
 				C5E327C226DBE912001F2D16 /* InventoryContentView.swift in Sources */,
-				C5F948BF240ED7C100C2BDCA /* ARViewInfo.swift in Sources */,
+				C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */,
 				C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */,
-				C5C8233623BA79E800BE365D /* FlagContentView.swift in Sources */,
 				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
 				C569560024469D9B0004798D /* MapView.swift in Sources */,
+				C5003EFB2A182B0500A02EE5 /* readPlatesInfoJSON.swift in Sources */,
 				C5E327BF26D321DE001F2D16 /* IntroContentView.swift in Sources */,
 				C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */,
 				C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */,
+				C5CC80FD2A6A4776003C7E8D /* Model.swift in Sources */,
+				C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */,
+				C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */,
 				C5695579242EB8400004798D /* ARQuickLook.swift in Sources */,
 				C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */,
 				C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */,
@@ -356,6 +397,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -380,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -416,6 +458,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -434,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -453,11 +496,12 @@
 				DEVELOPMENT_TEAM = A3R6PYDYTC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LPAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = crom.LPAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -474,11 +518,12 @@
 				DEVELOPMENT_TEAM = A3R6PYDYTC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LPAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = crom.LPAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

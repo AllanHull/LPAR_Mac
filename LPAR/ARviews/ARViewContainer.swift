@@ -9,7 +9,7 @@
 import SwiftUI
 import RealityKit
 
-struct ARViewContainer: UIViewRepresentable {
+struct ARViewContainer1: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
         
