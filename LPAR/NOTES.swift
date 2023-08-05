@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG04
+// added .usdz NE_SPC_basic
+
 // 2023JUL31
 // remove .usdz Teapot, toy_biplane and toy_robot_vintage
 

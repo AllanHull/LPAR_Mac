@@ -11,6 +11,7 @@
 		C506F9182A775C8000500A7E /* NE_ORG_unl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */; };
 		C50A2EFB24668A3000444866 /* CircleSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */; };
 		C56162A62A789C3A00226A64 /* IA_ORG_iu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */; };
+		C562573A2A7DFD670095DA6A /* NE_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */; };
 		C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5629DAA2A245DE900A17D6D /* EventContentView.swift */; };
 		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
 		C56955772416C9040004798D /* PlateViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955762416C9040004798D /* PlateViewContentView.swift */; };
@@ -30,7 +31,6 @@
 		C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */; };
 		C5CC80E82A6A3F7A003C7E8D /* IA_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */; };
 		C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */; };
-		C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */; };
 		C5CC80FD2A6A4776003C7E8D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80FC2A6A4776003C7E8D /* Model.swift */; };
 		C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A33A26B8685B0009465C /* NOTES.swift */; };
 		C5E327BF26D321DE001F2D16 /* IntroContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E327BE26D321DE001F2D16 /* IntroContentView.swift */; };
@@ -44,6 +44,7 @@
 		C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_unl.usdz; sourceTree = "<group>"; };
 		C50A2EFA24668A3000444866 /* CircleSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUI.swift; sourceTree = "<group>"; };
 		C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_iu.usdz; sourceTree = "<group>"; };
+		C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_basic.usdz; sourceTree = "<group>"; };
 		C5629DAA2A245DE900A17D6D /* EventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContentView.swift; sourceTree = "<group>"; };
 		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
 		C56955762416C9040004798D /* PlateViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPlateContentView.swift; sourceTree = "<group>"; };
 		C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_SPC_basic.usdz; sourceTree = "<group>"; };
 		C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow.usdz; sourceTree = "<group>"; };
-		C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_Cancer_S.usdz; sourceTree = "<group>"; };
 		C5CC80FC2A6A4776003C7E8D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5D7A33A26B8685B0009465C /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
 		C5E327BE26D321DE001F2D16 /* IntroContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroContentView.swift; sourceTree = "<group>"; };
@@ -221,8 +221,8 @@
 		C5CC80ED2A6A3FB7003C7E8D /* NE */ = {
 			isa = PBXGroup;
 			children = (
+				C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */,
 				C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */,
-				C5CC80F22A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz */,
 			);
 			path = NE;
 			sourceTree = "<group>";
@@ -294,9 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C562573A2A7DFD670095DA6A /* NE_SPC_basic.usdz in Resources */,
 				C506F9182A775C8000500A7E /* NE_ORG_unl.usdz in Resources */,
 				C56162A62A789C3A00226A64 /* IA_ORG_iu.usdz in Resources */,
-				C5CC80F32A6A400C003C7E8D /* NE_SPC_Cancer_S.usdz in Resources */,
 				C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */,
 				C5C8232023AAA18200BE365D /* Preview Assets.xcassets in Resources */,
 				C5C8231D23AAA18200BE365D /* Assets.xcassets in Resources */,
