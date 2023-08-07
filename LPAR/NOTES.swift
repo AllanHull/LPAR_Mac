@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG06
+
+
 // 2023AUG04
 // added .usdz NE_SPC_basic
 
