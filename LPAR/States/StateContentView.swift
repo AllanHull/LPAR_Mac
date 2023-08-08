@@ -26,6 +26,8 @@ typealias usStates = [usState]
 
 class usStateDownloader: ObservableObject {
     @Published var usstates: usStates = [usState]()
+    
+    @EnvironmentObject private var stateSettings: StateSettings
 
     init() {
         guard let url = URL(string: usStatesEndpoint) else { return }
@@ -52,7 +54,8 @@ struct StateContentView: View {
         NavigationView {
             List(self.usstateData.usstates) { usstate in
                 NavigationLink(destination:
-                    PlateContentView(usstate: usstate)) {
+                   PlateContentView(usstate: usstate)) {
+ //                   arPlateContentView(usstate: usstate)) {
 
                     Image(usstate.image)
                         .resizable()

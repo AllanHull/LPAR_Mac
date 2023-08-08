@@ -13,7 +13,9 @@ struct arPlateContentView : View {
     @State private var isPlacementEnabled = false
     @State private var selectedModel: Model?
     @State private var modelConfirmedForPlacement: Model?
-    
+   
+    @EnvironmentObject private var stateSettings: StateSettings
+      
     private var models: [Model] = {
         // dynamically get model filenames
         let filemanager = FileManager.default

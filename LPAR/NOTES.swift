@@ -10,8 +10,12 @@
 // APP NOTES
 //
 
-// 2023AUG06
-
+// 2023AUG07
+// added @EnvironmentObject private var stateSettings: StateSettings
+// modules:
+// ContentView
+// StateContentView
+// arPlateContentView
 
 // 2023AUG04
 // added .usdz NE_SPC_basic

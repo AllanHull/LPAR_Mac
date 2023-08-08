@@ -8,6 +8,16 @@
 
 import SwiftUI
 
+// Define Global Variables
+class StateSettings: ObservableObject {
+    enum StateSelect: String {
+        case Iowa
+        case Nebraska
+        case other
+    }
+    
+} // END: StateSettings
+
 struct ContentView: View {
   
         var body: some View {
@@ -34,7 +44,7 @@ struct ContentView: View {
                 
   //             ARQLView()
   //                readPlatesInfoJSON()
-  //              EventContentView()
+  //             EventContentView()
                 arPlateContentView()
                     .tag(2)
                     .tabItem {
