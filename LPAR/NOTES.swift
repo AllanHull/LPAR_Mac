@@ -11,7 +11,8 @@
 //
 
 // 2023AUG13
-// modify InfoContentView
+// modify InfoContentView, ContentView
+// delete images
 
 // 2023AUG07
 // added @EnvironmentObject private var stateSettings: StateSettings

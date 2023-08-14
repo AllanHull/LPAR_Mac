@@ -42,8 +42,9 @@ struct ContentView: View {
                     }
                 }
 
-                StateContentView()
+   //             StateContentView()
    //             StateSelectView()
+                arPlateContentView()
                     .tag(1)
                     .tabItem {
                         VStack {
@@ -53,17 +54,16 @@ struct ContentView: View {
                     }
                 
   //             ARQLView()
-  //                readPlatesInfoJSON()
   //             EventContentView()
-                arPlateContentView()
+ //               arPlateContentView()
  //               arPlateContentView().environmentObject(settings)
-                    .tag(2)
-                    .tabItem {
-                        VStack {
-                            Image("icon-usa-map")
-                            Text("arPlateContentView")
-                        }
-                    }
+ //                   .tag(2)
+ //                   .tabItem {
+ //                       VStack {
+ //                           Image("icon-usa-map")
+ //                           Text("arPlateContentView")
+ //                       }
+ //                   }
                 
 
             }
