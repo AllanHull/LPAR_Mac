@@ -10,12 +10,16 @@ import RealityKit
 import ARKit
 
 struct arPlateContentView : View {
+  
+    
     @State private var isPlacementEnabled = false
     @State private var selectedModel: Model?
     @State private var modelConfirmedForPlacement: Model?
-   
-    @EnvironmentObject private var stateSettings: StateSettings
-      
+    
+  
+ //   @EnvironmentObject var settings: UserSettings
+ //   @EnvironmentObject private var stateSettings: StateSettings
+    
     private var models: [Model] = {
         // dynamically get model filenames
         let filemanager = FileManager.default
@@ -26,7 +30,8 @@ struct arPlateContentView : View {
         
         var availableModels: [Model] = []
         for filename in files where
-        filename.hasSuffix("usdz") {
+        filename.hasPrefix("\(StateSettings.StateSelect.NE)") {
+ //       filename.hasSuffix("usdz") {
             let modelName = filename.replacingOccurrences(of: ".usdz", with: "")
             
             let model = Model(modelName: modelName)
@@ -41,6 +46,8 @@ struct arPlateContentView : View {
     var body: some View {
         ZStack(alignment: .bottom) {
             ARViewContainer(modelConfirmedForPlacement: self.$modelConfirmedForPlacement)
+            
+ //           Text("DEBUG \(stateSettings.stateSelect.rawValue)")
             
             if self.isPlacementEnabled {
                 PlacementButtonsView(isPlacementEnabled: self.$isPlacementEnabled, selectedModel: self.$selectedModel,
@@ -79,6 +86,7 @@ struct ARViewContainer: UIViewRepresentable {
             
             if let modelEntity = model.modelEntity {
                 print("DEBUG: adding model to scene - \(model.modelName)")
+               
                 
                 //            let anchorEntity = AnchorEntity(plane: .any)
                 //            let anchorEntity = AnchorEntity()
@@ -195,10 +203,10 @@ struct PlacementButtonsView: View {
 }
 
 
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-#endif
+//#if DEBUG
+//struct ContentView_Previews : PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
+//#endif

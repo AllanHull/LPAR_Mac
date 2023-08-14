@@ -48,6 +48,8 @@ typealias Plates = [Plate]
 
 struct PlateContentView: View {
     @ObservedObject var plateData: PlateDownloader = PlateDownloader()
+    
+    @EnvironmentObject private var stateSettings: StateSettings
 
     var usstate: usState
         
@@ -58,6 +60,7 @@ struct PlateContentView: View {
                 // place marker
             
                 if plate.state == self.usstate.state {
+  
                 
                 NavigationLink(destination: PlateViewContentView (plate: plate)) {
                 

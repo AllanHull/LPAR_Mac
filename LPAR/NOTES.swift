@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG13
+// modify InfoContentView
+
 // 2023AUG07
 // added @EnvironmentObject private var stateSettings: StateSettings
 // modules:

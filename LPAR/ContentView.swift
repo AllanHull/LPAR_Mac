@@ -11,19 +11,28 @@ import SwiftUI
 // Define Global Variables
 class StateSettings: ObservableObject {
     enum StateSelect: String {
-        case Iowa
-        case Nebraska
-        case other
+        case IA
+        case NE
+    }
+    
+    @Published var stateSelect: StateSelect
+    
+    init(stateSelect: StateSelect) {
+        self.stateSelect = stateSelect
     }
     
 } // END: StateSettings
 
+
+
 struct ContentView: View {
-  
+        
+//    var settings: UserSettings
+    
         var body: some View {
             TabView {
 
-              IntroContentView()
+              InfoContentView()
                 .tag(0)
                 .tabItem {
                     VStack {
@@ -34,6 +43,7 @@ struct ContentView: View {
                 }
 
                 StateContentView()
+   //             StateSelectView()
                     .tag(1)
                     .tabItem {
                         VStack {
@@ -46,6 +56,7 @@ struct ContentView: View {
   //                readPlatesInfoJSON()
   //             EventContentView()
                 arPlateContentView()
+ //               arPlateContentView().environmentObject(settings)
                     .tag(2)
                     .tabItem {
                         VStack {
