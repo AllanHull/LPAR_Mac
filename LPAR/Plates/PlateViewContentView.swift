@@ -24,13 +24,13 @@ struct PlateViewContentView: View {
         VStack{
             
             // display map
-            MapView(s1: plate.latitude, s2: plate.longitude, s3: plate.state, s4: " " )
-                .frame(height: 200)
+    //        MapView(s1: plate.latitude, s2: plate.longitude, s3: plate.state, s4: " " )
+   //             .frame(height: 200)
             
             // display plate image
-            CircleSwiftUI(imagePIC: plate.imageLink)
-                .offset(x: 0, y: -75)
-                .padding(.bottom, -130)
+   //         CircleSwiftUI(imagePIC: plate.imageLink)
+   //             .offset(x: 0, y: -75)
+   //             .padding(.bottom, -130)
             
             VStack(alignment: .leading){
             // display state plate

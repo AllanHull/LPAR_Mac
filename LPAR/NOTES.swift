@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG15
+// remove MapView, CircleSwiftUI
+
 // 2023AUG13
 // modify InfoContentView, ContentView
 // delete images
