@@ -10,6 +10,10 @@
 // APP NOTES
 //
 
+// 2023AUG16
+// remove Group Plates
+// remove EventContentView, PlateContentView, PlateViewContentView
+
 // 2023AUG15
 // remove MapView, CircleSwiftUI
 

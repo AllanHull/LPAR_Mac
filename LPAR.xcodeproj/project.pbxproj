@@ -10,9 +10,6 @@
 		C506F9182A775C8000500A7E /* NE_ORG_unl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */; };
 		C56162A62A789C3A00226A64 /* IA_ORG_iu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */; };
 		C562573A2A7DFD670095DA6A /* NE_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */; };
-		C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5629DAA2A245DE900A17D6D /* EventContentView.swift */; };
-		C569556C24132D790004798D /* PlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569556B24132D790004798D /* PlateContentView.swift */; };
-		C56955772416C9040004798D /* PlateViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56955762416C9040004798D /* PlateViewContentView.swift */; };
 		C5695579242EB8400004798D /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5695578242EB8400004798D /* ARQuickLook.swift */; };
 		C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD502A1D980F00FA31BE /* ARQLView.swift */; };
 		C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */; };
@@ -39,9 +36,6 @@
 		C506F9172A775C8000500A7E /* NE_ORG_unl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_ORG_unl.usdz; sourceTree = "<group>"; };
 		C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_iu.usdz; sourceTree = "<group>"; };
 		C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_basic.usdz; sourceTree = "<group>"; };
-		C5629DAA2A245DE900A17D6D /* EventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContentView.swift; sourceTree = "<group>"; };
-		C569556B24132D790004798D /* PlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateContentView.swift; sourceTree = "<group>"; };
-		C56955762416C9040004798D /* PlateViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewContentView.swift; sourceTree = "<group>"; };
 		C5695578242EB8400004798D /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
 		C599DD502A1D980F00FA31BE /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
 		C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
@@ -77,16 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C569556A24132D130004798D /* Plates */ = {
-			isa = PBXGroup;
-			children = (
-				C569556B24132D790004798D /* PlateContentView.swift */,
-				C56955762416C9040004798D /* PlateViewContentView.swift */,
-				C5629DAA2A245DE900A17D6D /* EventContentView.swift */,
-			);
-			path = Plates;
-			sourceTree = "<group>";
-		};
 		C569556D2416C1DA0004798D /* ARviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +113,6 @@
 				C599DD4F2A1D972900FA31BE /* ARmodules */,
 				C569556D2416C1DA0004798D /* ARviews */,
 				C5CC80E52A6A3EDC003C7E8D /* Models */,
-				C569556A24132D130004798D /* Plates */,
 				C5C8232D23AAA71500BE365D /* Info */,
 				C5C8232A23AAA37300BE365D /* States */,
 				C5695578242EB8400004798D /* ARQuickLook.swift */,
@@ -277,11 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */,
-				C56955772416C9040004798D /* PlateViewContentView.swift in Sources */,
-				C569556C24132D790004798D /* PlateContentView.swift in Sources */,
 				C5A398812A85E68F00A5EB11 /* StateSelectView.swift in Sources */,
 				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
-				C5629DAB2A245DE900A17D6D /* EventContentView.swift in Sources */,
 				C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */,
 				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
 				C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */,

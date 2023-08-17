@@ -53,8 +53,8 @@ struct StateContentView: View {
     var body: some View {
         NavigationView {
             List(self.usstateData.usstates) { usstate in
-                NavigationLink(destination:
-                   PlateContentView(usstate: usstate)) {
+  //              NavigationLink(destination:
+  //                 PlateContentView(usstate: usstate)) {
  //                   arPlateContentView(usstate: usstate)) {
 
                     Image(usstate.image)
@@ -65,15 +65,15 @@ struct StateContentView: View {
                         .overlay(Rectangle()
                         .stroke(Color.red, lineWidth: 3))
   
-                    Text(usstate.state)
-                        .font(.system(size: 22))
+//                    Text(usstate.state)
+//                        .font(.system(size: 22))
                     
                 }
            }
         .navigationBarTitle(Text("States"))
         Spacer()
    
-        }
+//        }
     }
 }
 
