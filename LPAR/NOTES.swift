@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG17
+// removed StateDetailContentView, ARViewContainer
+
 // 2023AUG16
 // remove Group Plates
 // remove EventContentView, PlateContentView, PlateViewContentView

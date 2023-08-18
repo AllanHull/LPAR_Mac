@@ -22,13 +22,11 @@
 		C5C8232323AAA18200BE365D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C8232123AAA18200BE365D /* LaunchScreen.storyboard */; };
 		C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232B23AAA3EF00BE365D /* StateContentView.swift */; };
 		C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8232E23AAA72E00BE365D /* InfoContentView.swift */; };
-		C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8233223B1360D00BE365D /* StateDetailContentView.swift */; };
 		C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */; };
 		C5CC80E82A6A3F7A003C7E8D /* IA_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */; };
 		C5CC80EC2A6A3F8B003C7E8D /* IA_MIL_pow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */; };
 		C5CC80FD2A6A4776003C7E8D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC80FC2A6A4776003C7E8D /* Model.swift */; };
 		C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A33A26B8685B0009465C /* NOTES.swift */; };
-		C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */; };
 		C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C5F948BC240DF2A500C2BDCA /* Experience.rcproject */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +48,11 @@
 		C5C8232423AAA18200BE365D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5C8232B23AAA3EF00BE365D /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
 		C5C8232E23AAA72E00BE365D /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
-		C5C8233223B1360D00BE365D /* StateDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailContentView.swift; sourceTree = "<group>"; };
 		C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPlateContentView.swift; sourceTree = "<group>"; };
 		C5CC80E72A6A3F7A003C7E8D /* IA_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_SPC_basic.usdz; sourceTree = "<group>"; };
 		C5CC80EB2A6A3F8B003C7E8D /* IA_MIL_pow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_MIL_pow.usdz; sourceTree = "<group>"; };
 		C5CC80FC2A6A4776003C7E8D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5D7A33A26B8685B0009465C /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
-		C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewContainer.swift; path = LPAR/ARviews/ARViewContainer.swift; sourceTree = SOURCE_ROOT; };
 		C5F948BC240DF2A500C2BDCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +70,6 @@
 		C569556D2416C1DA0004798D /* ARviews */ = {
 			isa = PBXGroup;
 			children = (
-				C5F948BA240DF10000C2BDCA /* ARViewContainer.swift */,
 				C5CC80E32A6A3A3B003C7E8D /* arPlateContentView.swift */,
 				C5CC80FC2A6A4776003C7E8D /* Model.swift */,
 			);
@@ -141,7 +136,6 @@
 			children = (
 				C5C8232B23AAA3EF00BE365D /* StateContentView.swift */,
 				C5A398802A85E68F00A5EB11 /* StateSelectView.swift */,
-				C5C8233223B1360D00BE365D /* StateDetailContentView.swift */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -262,7 +256,6 @@
 				C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */,
 				C5A398812A85E68F00A5EB11 /* StateSelectView.swift in Sources */,
 				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
-				C5F948BB240DF10000C2BDCA /* ARViewContainer.swift in Sources */,
 				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
 				C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */,
 				C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */,
@@ -270,7 +263,6 @@
 				C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */,
 				C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */,
 				C5695579242EB8400004798D /* ARQuickLook.swift in Sources */,
-				C5C8233323B1360D00BE365D /* StateDetailContentView.swift in Sources */,
 				C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */,
 				C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */,
 				C5D7A33B26B8685B0009465C /* NOTES.swift in Sources */,
