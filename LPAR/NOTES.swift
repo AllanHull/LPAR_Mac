@@ -10,6 +10,9 @@
 // APP NOTES
 //
 
+// 2023AUG18
+// removed ARQLView, ARQLViewController
+
 // 2023AUG17
 // removed StateDetailContentView, ARViewContainer
 

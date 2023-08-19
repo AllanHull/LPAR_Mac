@@ -11,8 +11,6 @@
 		C56162A62A789C3A00226A64 /* IA_ORG_iu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */; };
 		C562573A2A7DFD670095DA6A /* NE_SPC_basic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */; };
 		C5695579242EB8400004798D /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5695578242EB8400004798D /* ARQuickLook.swift */; };
-		C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD502A1D980F00FA31BE /* ARQLView.swift */; };
-		C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */; };
 		C5A398812A85E68F00A5EB11 /* StateSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A398802A85E68F00A5EB11 /* StateSelectView.swift */; };
 		C5C8231723AAA18100BE365D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231623AAA18100BE365D /* AppDelegate.swift */; };
 		C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8231823AAA18100BE365D /* SceneDelegate.swift */; };
@@ -35,8 +33,6 @@
 		C56162A52A789C3A00226A64 /* IA_ORG_iu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = IA_ORG_iu.usdz; sourceTree = "<group>"; };
 		C56257392A7DFD670095DA6A /* NE_SPC_basic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NE_SPC_basic.usdz; sourceTree = "<group>"; };
 		C5695578242EB8400004798D /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
-		C599DD502A1D980F00FA31BE /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
-		C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
 		C5A398802A85E68F00A5EB11 /* StateSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSelectView.swift; sourceTree = "<group>"; };
 		C5C8231323AAA18100BE365D /* LPAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C8231623AAA18100BE365D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,15 +72,6 @@
 			path = ARviews;
 			sourceTree = "<group>";
 		};
-		C599DD4F2A1D972900FA31BE /* ARmodules */ = {
-			isa = PBXGroup;
-			children = (
-				C599DD502A1D980F00FA31BE /* ARQLView.swift */,
-				C599DD522A1D98DD00FA31BE /* ARQLViewController.swift */,
-			);
-			path = ARmodules;
-			sourceTree = "<group>";
-		};
 		C5C8230A23AAA18100BE365D = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				C5D7A33A26B8685B0009465C /* NOTES.swift */,
-				C599DD4F2A1D972900FA31BE /* ARmodules */,
 				C569556D2416C1DA0004798D /* ARviews */,
 				C5CC80E52A6A3EDC003C7E8D /* Models */,
 				C5C8232D23AAA71500BE365D /* Info */,
@@ -253,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C599DD512A1D980F00FA31BE /* ARQLView.swift in Sources */,
 				C5A398812A85E68F00A5EB11 /* StateSelectView.swift in Sources */,
 				C5C8232C23AAA3EF00BE365D /* StateContentView.swift in Sources */,
 				C5C8232F23AAA72E00BE365D /* InfoContentView.swift in Sources */,
@@ -261,7 +246,6 @@
 				C5F948BD240DF2A500C2BDCA /* Experience.rcproject in Sources */,
 				C5CC80FD2A6A4776003C7E8D /* Model.swift in Sources */,
 				C5CC80E42A6A3A3B003C7E8D /* arPlateContentView.swift in Sources */,
-				C599DD532A1D98DD00FA31BE /* ARQLViewController.swift in Sources */,
 				C5695579242EB8400004798D /* ARQuickLook.swift in Sources */,
 				C5C8231923AAA18100BE365D /* SceneDelegate.swift in Sources */,
 				C5C8231B23AAA18100BE365D /* ContentView.swift in Sources */,
