@@ -42,7 +42,6 @@ struct ContentView: View {
                     }
                 }
 
-   //             StateContentView()
    //             StateSelectView()
                 arPlateContentView()
                     .tag(1)
@@ -53,19 +52,6 @@ struct ContentView: View {
                         }
                     }
                 
-  //             ARQLView()
-  //             EventContentView()
- //               arPlateContentView()
- //               arPlateContentView().environmentObject(settings)
- //                   .tag(2)
- //                   .tabItem {
- //                       VStack {
- //                           Image("icon-usa-map")
- //                           Text("arPlateContentView")
- //                       }
- //                   }
-                
-
             }
         }
 }

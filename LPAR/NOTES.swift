@@ -10,6 +10,10 @@
 // APP NOTES
 //
 
+// 2023AUG21
+// remove image second.imageset
+// clean up ContentView 
+
 // 2023AUG18
 // removed ARQLView, ARQLViewController
 
