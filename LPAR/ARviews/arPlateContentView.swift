@@ -68,7 +68,8 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         let config = ARWorldTrackingConfiguration()
-        config.planeDetection = [.horizontal, .vertical]
+//        config.planeDetection = [.horizontal, .vertical]
+        config.planeDetection = [.vertical]
         config.environmentTexturing = .automatic
         
         if ARWorldTrackingConfiguration .supportsSceneReconstruction(.mesh) {

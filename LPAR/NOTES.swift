@@ -1,6 +1,10 @@
 //
 //  NOTES.swift
 //  LPAR
+
+// GitHub Information
+// Repository: AllanHull/LPAR_Mac
+
 //
 //  Created by Allan Hull on 8/2/21.
 //  Copyright © 2021 Allan Hull. All rights reserved.
@@ -9,6 +13,14 @@
 //
 // APP NOTES
 //
+
+// 2023SEP04
+// submitted LPAR app build 2.4 to App Store
+// GitHub Push
+
+// 2023SEP01
+// module: arPlateContentView
+// changed: config.planeDetection = [.vertical]
 
 // 2023AUG21
 // remove image second.imageset
